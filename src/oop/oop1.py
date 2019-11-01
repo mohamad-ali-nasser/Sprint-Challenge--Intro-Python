@@ -17,3 +17,47 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+
+class Vehicle:
+    """
+    Base/Parent class
+    """
+    # def __init__(self, name):
+    #     self.name = name
+    pass
+
+class FlightVehicle(Vehicle):
+    """
+    Sub class for Vehicle
+    """
+    pass
+
+class GroundVehicle(Vehicle):
+    """
+    Sub class for Vehicle
+    """
+    pass
+
+class Starship(FlightVehicle):
+    """
+    Sub class for FlightVehicle
+    """
+    pass
+
+class Airplane(FlightVehicle):
+    """
+    Sub class for FlightVehicle
+    """
+    pass
+
+class Car(GroundVehicle):
+    """
+    Sub class for GroundVehicle
+    """
+    pass
+
+class Motorcycle(GroundVehicle):
+    """
+    Sub class for GroundVehicle
+    """
+    pass
